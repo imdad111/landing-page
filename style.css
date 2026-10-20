@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-section {
@@ -84,7 +86,10 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-     padding: 40px 0;
+    padding: 40px 0;
+    
+    padding-bottom: 0px;
+
 }
 
 .card{
@@ -134,5 +139,64 @@ img{
 }
 
 
+.call-to-action{
+    background-color: #3882f6;
+    display: flex;
+    color: #E5E7EB;
+    padding: 40px 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    flex-shrink: 1;
+    
+   
+    
+}
+
+.call-to-action .text{
+   
+    font-weight: bold;  
+    font-size: large; 
+       
+}
+
+.call-to-action button{
+   
+    padding: 5px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    height:30px;
+    margin-top: 10px;
+    margin-left: 70px;
+    white-space: nowrap;
+   
+   
+   
+/* .call-to-action .button{
+    display: flex;
+    flex-shrink: 0;
+}   
+    */
+    
+    
+}
+
+#below{
+    margin: 0;
+    font-size: medium;
+    font-weight: 100;
+}
+
+
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color: #E5E7EB;
+   text-align: center;
+   padding: 24px 0;
+   font-size: 14px;
+   align-self: stretch;
+   justify-content: center;
+}
 
 
