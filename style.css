@@ -109,7 +109,29 @@ img{
     padding-bottom: 30px;
 }
    
+.quote-section{
+    background-color: #E5E7EB;
+    padding:100px 95px 100px 200px;
+}
 
+.quote{
+    font-size: 36px;
+    display: flex;
+    justify-content:center;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    color: #1f2937;
+    padding-bottom: 15px;
+}
+
+.quotee{
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: flex-end;
+
+}
 
 
 
